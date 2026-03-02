@@ -38,3 +38,11 @@ Le script "evaluate.ipynb" :
 - charge les fichiers 2D exportés
 - calcule la métrique **trustworthiness** pour chaque méthode
 - affiche les scores pour comparer la préservation des voisinages locaux
+
+---
+
+## 5. Dockerisation du projet
+
+Le projet est conteneurisé avec Docker pour permettre l’exécution du script de comparaison des méthodes de réduction de dimension sans avoir à installer Python ou les librairies localement. Le conteneur lit les données depuis le dossier data et écrit les résultats dans le dossier outputs.
+
+Lancer le conteneur : docker run -v "$(pwd)/data:/app/data" -v "$(pwd)/outputs:/app/outputs" -it projet_final_conteneurisation_2
