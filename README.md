@@ -34,6 +34,6 @@ Chaque notebook :
 ## 4. Comparaison des méthodes
 
 Le script "evaluate.ipynb" :
-- Charge les fichiers 2D exportés
-- Calcule la métrique **trustworthiness** pour chaque méthode
-- Affiche les scores pour comparer la préservation des voisinages locaux
+- charge les fichiers 2D exportés
+- calcule la métrique **trustworthiness** pour chaque méthode
+- affiche les scores pour comparer la préservation des voisinages locaux
