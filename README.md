@@ -7,14 +7,14 @@ Ce projet simule un travail collaboratif de data science sur GitHub. L'objectif 
 ---
 
 ## 2. Structure du projet
-
+```
 ├─ data/ # Données
 ├─ notebooks/ # Notebooks des méthodes (PCA, t-SNE, UMAP)
 ├─ outputs/ # Données projetées 2D exportées
 ├─ compare_methods.py # Script de comparaison des méthodes
 ├─ Dockerfile # Image Docker pour l'exécution du projet
 └─ README.md
-
+```
 data/
 ├─ city_lifestyle_dataset.csv
 notebooks/
