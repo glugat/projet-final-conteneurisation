@@ -15,19 +15,6 @@ Ce projet simule un travail collaboratif de data science sur GitHub. L'objectif 
 ├─ Dockerfile # Image Docker pour l'exécution du projet
 └─ README.md
 ```
-data/
-├─ city_lifestyle_dataset.csv
-notebooks/
-├─ pca.ipynb
-├─ tsne.ipynb
-├─ umap.ipynb
-outputs/
-├─ pca_2d.csv
-├─ tsne_2d.csv
-├─ umap_2d.csv
-compare_methods.py
-Dockerfile
-README.md
 
 ---
 
